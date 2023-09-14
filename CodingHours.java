@@ -11,8 +11,8 @@ public class CodingHours {
 
         double percentageOfCodingHours = ((double) totalCodingHours / averageWorkHoursWeekly) * 100;
 
-        System.out.println("Total coding hours in the semester: " + totalCodingHours + " hours");
-        System.out.println("Percentage of coding hours relative to the average work hours weekly: " + percentageOfCodingHours + "%");
+        System.out.println("össz kódolási óra szemszteren: " + totalCodingHours + " óra");
+        System.out.println("A kódolási órák százalékos aránya a heti átlagos munkaórákhoz viszonyítva: " + percentageOfCodingHours + "%");
 
 
     }
