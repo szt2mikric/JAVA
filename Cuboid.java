@@ -13,10 +13,10 @@ public class CuboidCalculator {
         System.out.println("Enter the height of the cuboid: ");
         double height = scanner.nextDouble();
 
-        // Calculate the surface area of the cuboid
+        
         double surfaceArea = 2 * ((length * width) + (length * height) + (width * height));
 
-        // Calculate the volume of the cuboid
+      
         double volume = length * width * height;
 
         System.out.println("Surface Area of the Cuboid: " + surfaceArea);
